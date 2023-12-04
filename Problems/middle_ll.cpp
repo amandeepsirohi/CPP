@@ -21,6 +21,7 @@ Node *middle(Node *head)
         fast = fast->next->next;
         slow = slow->next;
     }
+        //when fast reaches end slow points to mid element
     return slow;
 }
 int main()
